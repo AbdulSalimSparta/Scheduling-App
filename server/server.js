@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 import env from "dotenv";
 env.config();
 
-// Developed By Abdul Saleem (abdulsalee.cse21@mamcet.com)
+// Developed By Abdul Saleem (abdulsaleem.cse21@mamcet.com)
 
 const db = new pg.Client({// Replace values to coonect with Database
   user: process.env.DATABASE_USER,
@@ -103,4 +103,4 @@ app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
 
-// Developed By Abdul Saleem (abdulsalee.cse21@mamcet.com)
+// Developed By Abdul Saleem (abdulsaleem.cse21@mamcet.com)
